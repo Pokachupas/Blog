@@ -126,3 +126,28 @@ footer p{
     border-radius: 6px;
     margin:10px;
 }
+.test{
+    background-color: white;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    width: 60%;
+    font-size: 25px;
+    padding: 20px;
+    flex-flow: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.questions{
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+.questions li{
+    margin-left: 60px;
+}
+.questions p{
+    margin-left: 60px;
+    padding-bottom: 15px;
+}
