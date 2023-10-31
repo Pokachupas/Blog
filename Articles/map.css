@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+header{
+    max-height: 150px;
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    flex-direction: column;
+}
+.titulo{
+    padding-left: 25px;
+    padding-bottom: 5px;
+    /* text-align: center; */
+    color: whitesmoke;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 20px;
+}
+.titulo h1{
+    margin-left: 100px;
+}
+nav{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+header a{
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 2px;
+}
+header nav a:hover{
+    background-color: whitesmoke;
+    color: #050505;
+}
+.mapa-estrategico {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para cada perspectiva */
+.perspectiva {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 50px;
+}
+.perspectiva h2{
+    border: 1px solid black;
+}
+/* Estilos para los objetivos estratégicos */
+.objetivos {
+    width: 350px;
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    flex-flow: row wrap;
+}
+
+/* Estilos para los objetivos individuales */
+.objetivo {
+    padding: 10px;
+}
+footer{
+    background-color: #050505;
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 10px;
+}
+.title{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.objetivos p{
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 50px;
+}
